@@ -1,0 +1,13 @@
+A couple of solutions come to mind when given a certain task. 
+	For starters if all of the context is strictly pulled from a 
+database, a simple page "pull" page can be made. In other words, creating a suitable 
+UI for non-techies to pull or even push data into the database.
+	If there are data parts that are static and not stored somewhere 
+and non-techies want to edit them, I suggest a simple template to be 
+made and do everthing mentioned above in order to change the template 
+and not the data.
+	The benefits of these methods are that both developers and 
+non-techies can edit the data. Another asset is that this "pull" page, 
+if done right, can be used not only in 1 project but in multiple. 
+However, it might take some time before fully completing it but in my 
+opinion it is a worthy investment of time.

@@ -1,0 +1,9 @@
+Apart from the content analyzer, for a spell-checking feature I think 
+the following solution should do well:
+	Gather text from all parts we want to be checked and for each 
+word make sure that a already formed dictionary contains it. If not then 
+the word is incorrectly spelled. It might even be made as an autocorrect 
+feature. If it is implemented as an autocorrect I suggest having a 
+switch to be added to so people can turn it off if they do not wish to 
+use it. Also the dictionary should be sorted alphabetically by all means 
+so the spell-checking can be done faster.

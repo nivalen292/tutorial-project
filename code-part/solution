@@ -1,0 +1,16 @@
+I am sorry to say that I submit an incomplete project. I have not 
+cropped the images from 6.png as suggested. Still for the means of the 
+project I picked react for a couple of reasons:
+	1) I know you guys you react
+	2) Even though I am not familiar with it I still picked it 
+because this way you can see my learning curve
+	3) I think it provides us with a fairly easy way of building a 
+component-based app
+
+I know most of code is not highly efficient or maybe an example of how 
+not to do things, for which I am deeply sorry, but due to an unexpected 
+trip I had to take I was left with short period of time. You can still 
+see the partially made tutorial.
+
+P.S. To trigger the next step of the tutorial I made the current 
+text-input has to lose focus(blur).

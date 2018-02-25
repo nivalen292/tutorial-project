@@ -1,0 +1,70 @@
+.TutorialBar {
+    background-color: #009ee8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 175px;
+    width: 100%;
+    overflow:hidden;
+}
+
+button {
+    padding: 10px 35px;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #ffffff;
+    border: 0;
+    margin: 0 auto;
+    display: none;
+}
+
+h3 {
+    color: white;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.close-button {
+    width: 25px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.subtitle {
+    color: #64beef;
+    margin: 10px auto;
+    width: 100%;
+}
+
+span {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 1024px) {
+    .TutorialBar {
+        height: 200px;
+    }
+    .subtitle {
+        width: 80%;
+    }
+    h3  {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .TutorialBar {
+        height: 225px;
+    }
+}

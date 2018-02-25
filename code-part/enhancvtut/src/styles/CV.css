@@ -1,0 +1,188 @@
+.CV {
+    position: relative;
+    height: 1200px;
+    margin-top: 75px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 200px;
+    background-color: white;
+}
+
+.inner {
+    margin: 75px;
+}
+
+input {
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    font-weight: bold;
+    color: lightgray;
+}
+
+input::-moz-placeholder {
+    font-weight: bold;
+    color: lightgray;
+}
+
+input[class="position-input"]::-webkit-input-placeholder {
+    font-weight: bold;
+    color: rgba(0,158,232, 0.3);
+}
+
+input[class="position-input"]::-moz-placeholder {
+    font-weight: bold;
+    color: rgba(0,158,232, 0.3);
+}
+
+.name-input {
+    margin-top: 75px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.position-input {
+    font-size: 20px;
+    font-weight: bold;
+    color: #009ce8;
+}
+
+header {
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.image-holder {
+    background-color: #f3f3f3;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 125px;
+    right: 50px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    margin-right: 150px;
+}
+
+.right-side {
+    position: absolute;
+    right: 50px;
+}
+
+.title-holder {
+    background-color: #f3f3f3;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;    
+}
+
+.separator {
+    background-color: #f3f3f3;
+    width: 500px;
+    height: 5px;
+}
+
+.achievements {
+    margin-bottom: 75px;
+}
+
+.achievement {
+    margin-top: 50px;
+    display: flex;
+}
+
+.achievement-icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+    background-color: #f3f3f3;
+}
+
+
+@media screen and (max-width: 1640px) {
+    .CV {
+        height: 1800px;
+    }
+    .right-side {
+        left: 75px;
+        top: 1100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .image-holder {
+        top: 250px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .details {
+        margin-top: 350px;
+    }
+    .right-side {
+        top: 1250px;
+    }
+    .CV {
+        height: 2000px;
+        margin-bottom: 225px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .separator {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .separator {
+        width: 300px;
+    }
+
+    .left-side, .right-side {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 400px;
+    }
+    .CV {
+        margin-bottom: 275px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .name-input {
+        width: 250px;
+    }
+    .position-input {
+        width: 250px;
+    }
+    .title-holder {
+        width: 200px;
+    }
+    .separator {
+        width: 275px;
+    }
+    .name-input, .position-input {
+        font-size: 25px;
+        margin-left: -50px;
+    }
+    .right-side, .left-side {
+        width: 100%;
+    }
+}
